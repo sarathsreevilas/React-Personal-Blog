@@ -1,11 +1,12 @@
 import Topbar from "./components/topbar/Topbar";
-import Single from "./pages/single/Single";
+// import Register from "./pages/register/Register";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
   return (
     <>
       <Topbar />
-      <Single />
+      {/* <Register /> */}
     </>
   );
 }
